@@ -1,0 +1,15 @@
+/* .container-fluid #navbarSupportedContent .navbar-nav */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+.navbar-nav .nav-item:hover{
+    /* background-color: yellow; */
+    /* margin-bottom: 1px; */
+    padding-bottom: 0px;
+    border-bottom: 2px solid brown;
+}
+
+.dropdown-menu .dropdown-item{
+    font-weight: bold;
+    padding: 0px 10px;
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+}

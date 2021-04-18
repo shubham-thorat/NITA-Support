@@ -1,0 +1,42 @@
+.table-container{
+    width: 50%;
+    margin: 20px auto;
+}
+.passage{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px 20px;
+    text-align: justify;
+    background-color: rgb(241, 204, 204);
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name .heading{
+    text-align: start;
+    border: 1px solid black;
+    padding: 3px 10px;
+    margin: 0;
+    background-color: chocolate;
+}
+.userData{
+    display: flex;
+}
+.item{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+.item .field{
+    font-size: 22px;
+    padding: 0 10px;
+    border-bottom: 2px solid black;
+}
+.item p:last-child{
+    border-bottom: none;
+}
+.staffimage{
+    width: 200px;
+    /* height: 200px; */
+    margin: 10px;
+}
+

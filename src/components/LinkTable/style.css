@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+.title{
+    background-color: brown;
+}
+
+.table{
+    list-style-type:decimal;
+}
+.link-column{
+    text-align: start;
+    border-bottom: 2px solid saddlebrown;
+    padding: 10px 1px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.link-column a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 760px){
+    
+    
+}

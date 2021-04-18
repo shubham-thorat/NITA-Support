@@ -1,0 +1,15 @@
+.box{
+    
+    /* height: 100vh; */
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.box h1{
+    font-size: 5rem;
+}
+.box img{
+    width: 35%;
+}

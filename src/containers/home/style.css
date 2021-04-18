@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9eaed;
+}
+.main-menu{
+    border: 2px solid black;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* slides section  */
+
+/* slides data section  */
+.slideContents{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: url('../../image/bg1.jfif') center center fixed;
+    background-size: 50%;
+}
+.slideContents h5{
+    text-align: start;
+    padding: 0 12px;
+}
+
+.slideContents .news {
+    color: white;
+    font-size: 1.4rem;
+    text-align: start;
+    margin: 0 12px;
+}
+.slideContents .news .news-element{
+    line-height: 27px;
+}
+.slideContents .news .news-element a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* slides image section  */
+.slideImageSection{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.back{
+    position: relative; 
+     left: 24px;
+    /* height: 100%; */
+}
+.front{
+    position: relative; 
+    right: 24px;
+}
+.container .slideImageSection img{
+   max-width: 100%;
+   max-height: 100%;
+   margin: 0;
+}
+
+
+/* section menu  */
+
+.side-menu{
+    display: flex;
+}
+
+
+.box .title{
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+    line-height: 50px;
+}
+
+
+
+@media screen  and (max-width : 1007px){
+    .main-menu{
+       flex-direction: column;
+    }    
+    .slideContents{
+        width: 100%;
+    }
+    .slideImageSection{
+        width: 100%;
+    }    
+    
+}
+
+@media screen  and (max-width : 770px){
+   .side-menu{
+       flex-direction: column;
+       
+   }
+}

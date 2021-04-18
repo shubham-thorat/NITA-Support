@@ -1,0 +1,45 @@
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 101px;
+}
+.contact-box img{
+    border: 5px solid black;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 12px;
+    font-size: 20px;
+    margin: 15px 0;
+    
+}
+@media screen and (max-width : 824px) {
+    .contact-box{
+        padding: 0 30px;
+        margin: 10px;
+        width: 100%;
+
+    }
+    .info{
+        line-height: normal;
+        text-align: start;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width : 300px) {
+    .contact-box{
+        padding: 0 10px;
+    }
+    .info{
+        line-height:23px;
+        text-align: start;
+        margin: 5px 0;
+        margin-bottom: 15px;
+    }
+}
